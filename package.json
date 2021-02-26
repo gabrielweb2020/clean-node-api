@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/gabrielweb2020/clean-node-api/issues"
   },
-  "homepage": "https://github.com/gabrielweb2020/clean-node-api#readme"
+  "homepage": "https://github.com/gabrielweb2020/clean-node-api#readme",
+  "devDependencies": {
+    "git-commit-msg-linter": "^3.0.0"
+  }
 }
