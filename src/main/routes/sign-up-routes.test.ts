@@ -16,7 +16,7 @@ describe('SignUp Routes', () => {
     await accountCollection.deleteMany({})
   })
 
-  test('Should return an account on success', async () => {
+  test('Should return the same result of the controller', async () => {
     await request(app)
       .post('/api/signup')
       .send({
