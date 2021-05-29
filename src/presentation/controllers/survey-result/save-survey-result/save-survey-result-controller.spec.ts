@@ -2,21 +2,12 @@ import { SaveSurveyResultController } from './save-survey-result-controller'
 import { HttpRequest, LoadSurveyById, SurveyModel } from './save-survey-result-controller-protocols'
 import { InvalidParamError } from '@/presentation/errors'
 import { forbidden } from '@/presentation/helpers/http/http-helper'
+import { mockSurveyModel } from '@/domain/test'
 
 const makeFakeRequest = (): HttpRequest => ({
   params: {
     surveyId: 'any_survey_id'
   }
-})
-
-const makeFakeSurvey = (): SurveyModel => ({
-  id: 'any_id',
-  question: 'any_question',
-  answers: [{
-    image: 'any_image',
-    answer: 'any_answer'
-  }],
-  date: new Date()
 })
 
 type SutTypes = {
@@ -36,7 +27,7 @@ const makeSut = (): SutTypes => {
 const makeLoadSurveyById = (): LoadSurveyById => {
   class LoadSurveyByIdStub implements LoadSurveyById {
     async loadById (id: string): Promise<SurveyModel> {
-      return await new Promise(resolve => resolve(makeFakeSurvey()))
+      return await new Promise(resolve => resolve(mockSurveyModel()))
     }
   }
   return new LoadSurveyByIdStub()
