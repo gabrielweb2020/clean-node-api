@@ -1,27 +1,19 @@
-# Clean Node Api
----
-
-## Arquitetura
-[![N|Solid](https://raw.githubusercontent.com/paulosoujava/clean-api-node/feat/login/images/archeture.png)](https://www.linkedin.com/in/paulo-oliveira-nodejs/)
-
-## Testes
-[![N|Solid](https://raw.githubusercontent.com/paulosoujava/clean-api-node/feat/login/images/tests.png)](https://www.linkedin.com/in/paulo-oliveira-nodejs/)
-[![N|Solid](https://raw.githubusercontent.com/paulosoujava/clean-api-node/master/images/table.png)](https://www.linkedin.com/in/paulo-oliveira-nodejs/)
-
-[![Build Status](https://travis-ci.com/paulosoujava/clean-api-node.svg?branch=master)](https://travis-ci.com/paulosoujava/clean-api-node)
-[![Coverage Status](https://coveralls.io/repos/github/paulosoujava/clean-api-node/badge.svg?branch=master)](https://coveralls.io/github/paulosoujava/clean-api-node?branch=master)
-
+[![Build Status](https://travis-ci.org/rmanguinho/clean-ts-api.svg?branch=master)](https://travis-ci.org/rmanguinho/clean-ts-api)
+[![Coverage Status](https://coveralls.io/repos/github/rmanguinho/clean-ts-api/badge.svg)](https://coveralls.io/github/rmanguinho/clean-ts-api)
 [![Known Vulnerabilities](https://snyk.io/test/github/rmanguinho/clean-ts-api/badge.svg)](https://snyk.io/test/github/rmanguinho/clean-ts-api)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 [![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/)
 
 # **Clean Node API**
+
+[![alt text](./public/img/logo-course.png "Link para o treinamento")](https://www.udemy.com/course/tdd-com-mango/?referralCode=B53CE5CA2B9AFA5A6FA1)
+
+---
+
 ## [**Link para o curso completo**](https://www.udemy.com/course/tdd-com-mango/?referralCode=B53CE5CA2B9AFA5A6FA1)
-[![N|Solid](https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg)](https://www.udemy.com/course/tdd-com-mango/?referralCode=B53CE5CA2B9AFA5A6FA1)
 
-
-Essa API faz parte do treinamento do professor Rodrigo Manguinho (Mango).
+Essa API faz parte do treinamento do professor Rodrigo Manguinho (Mango) na Udemy.
 
 O objetivo do treinamento é mostrar como criar uma API com uma arquitetura bem definida e desacoplada, utilizando TDD (programação orientada a testes) como metodologia de trabalho, Clean Architecture para fazer a distribuição de responsabilidades em camadas, sempre seguindo os princípios do SOLID e, sempre que possível, aplicando Design Patterns para resolver alguns problemas comuns.
 
@@ -61,6 +53,7 @@ O objetivo do treinamento é mostrar como criar uma API com uma arquitetura bem 
 * Abstract Server
 * Composition Root
 * Builder
+* Singleton
 
 > ## Metodologias e Designs
 
@@ -92,6 +85,9 @@ O objetivo do treinamento é mostrar como criar uma API com uma arquitetura bem 
 * Coveralls
 * Validator
 * Express
+* Apollo Server Express
+* Graphql
+* Graphql ISO Date
 * Supertest
 * Husky
 * Lint Staged
@@ -105,17 +101,31 @@ O objetivo do treinamento é mostrar como criar uma API com uma arquitetura bem 
 * Module-Alias
 * Copyfiles
 * Npm Check
+* Bson ObjectId
+* Apollo Server Integration Testing
 
 > ## Features do Node
 
 * Documentação de API com Swagger
+* API Rest com Express
+* GraphQL com Apollo Server
 * Log de Erro
 * Segurança (Hashing, Encryption e Encoding)
 * CORS
 * Middlewares
 * Nível de Acesso nas Rotas (Admin, User e Anônimo)
 * Deploy no Heroku
-* SErvir Arquivos Estáticos
+* Servir Arquivos Estáticos
+
+> ## Features do GraphQL
+
+* Types
+* Queries
+* Mutations
+* Resolvers
+* Directives
+* Scalars
+* Plugins
 
 > ## Features do Git
 
@@ -134,8 +144,10 @@ O objetivo do treinamento é mostrar como criar uma API com uma arquitetura bem 
 * POO Avançado
 * Interface
 * TypeAlias
+* Namespace
 * Utility Types
 * Modularização de Paths
+* Configurações
 * Build
 * Deploy
 * Uso de Breakpoints
@@ -143,7 +155,7 @@ O objetivo do treinamento é mostrar como criar uma API com uma arquitetura bem 
 > ## Features de Testes
 
 * Testes Unitários
-* Testes de Integração
+* Testes de Integração (API Rest & GraphQL)
 * Cobertura de Testes
 * Test Doubles
 * Mocks
